@@ -1,6 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+first of all run the command s:
+
+### `npm i` to download all the dependancies
 
 In the project directory, you can run:
 

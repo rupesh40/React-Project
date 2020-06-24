@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ButtonContainer = styled.button
+export const ButtonContainer = styled.button`
 text-transform : capitalize;
 font-size : 1.4rem;
 background: transparent;
@@ -18,4 +18,15 @@ transition:all 0.5s ease-in-out;
 &:focus{
     outline:none;
 
+}`
+
+export const NavWrapper = styled.nav`
+background:var(--mainBlue);
+.nav-link{
+color:var(--mainWhite)!important;
+font-size:1.3rem;
+text-transform: capitalize;
+
 }
+
+`

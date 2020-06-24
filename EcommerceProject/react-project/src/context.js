@@ -12,10 +12,10 @@ const ProductContext = React.createContext();
          detailProduct:detailProduct
      }
      handleDetail =() =>{
-         console.log("hello from detail")
+         console.log("hello from detail");
      }
      addToCart =() =>{
-        console.log("hello from addToCart")
+        console.log("hello from addToCart");
      }
 
     render() {
@@ -31,7 +31,7 @@ const ProductContext = React.createContext();
             )
     }
 }
-
+  
 const ProductConsumer =ProductContext.Consumer;
 
 export {ProductProvider,ProductConsumer};
